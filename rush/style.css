@@ -1,0 +1,61 @@
+/*
+    ไฟล์: style.css
+    สไตล์สำหรับทุกหน้า: เน้นสีขาว/สีอ่อน (Clean & Minimal)
+*/
+
+body {
+    /* ใช้ฟอนต์ที่อ่านง่ายและทันสมัย */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    background-color: #f0f2f5; 
+    color: #333; 
+}
+
+/* Navbar: เรียบง่าย ทันสมัย */
+.navbar {
+    background-color: #ffffff !important; 
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05); 
+}
+
+/* Card บนหน้า index.html (หน้าหลัก) */
+.card-profile {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: none;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08); 
+    background-color: #ffffff; 
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.card-profile:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+/* ส่วนของ Section ข้อมูลส่วนตัว (ภายในหน้า profile) */
+.profile-section {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: #ffffff; 
+    margin-bottom: 25px; 
+    border-radius: 10px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04); 
+}
+
+.container.pt-6 {
+    padding-top: 6rem !important; 
+}
+
+/* สไตล์สำหรับหัวข้อ */
+h2 {
+    font-weight: 600;
+    color: #0d6efd; 
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid #f0f2f5;
+    margin-bottom: 1.5rem;
+}
+
+/* ไอคอนใน Contact Section */
+.contact-item i {
+    color: #6c757d; 
+    margin-right: 10px;
+}
